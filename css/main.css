@@ -1,7 +1,12 @@
+
 *{
 	outline:1px solid rgba(255,0,0,0.4);
 }
 
-.city{
-	background-image:url('../img/background/city.jpg');
+.img-pricing{
+	height: 500px; 
+	background-image: url('../img/background/city.jpg');
+	background-size: cover;
+	background-position: center;
 }
+
