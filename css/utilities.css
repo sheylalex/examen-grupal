@@ -23,6 +23,9 @@ strong {
 .pt-0 {
 	padding-top: 0%;
 }
+.pt-3{
+	padding-top: 3%;
+}
 .pt-5{
 	padding-top: 5%;
 }
@@ -76,7 +79,7 @@ strong {
 	text-decoration: none;
 }
 .bg-gray{
-	background-color: rgb(244, 244, 244);
+	background-color: #F2F2F2;
 }
 .bg-img-block {
 	background-size: cover;

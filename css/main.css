@@ -1,17 +1,45 @@
 *{outline:1px solid rgba(255,0,0,0.4);}
 .home{
-	background-image: url(..img/hero.png);
+	background-image: url(../img/background/hero.jpg);
+	background: cover;
+	height: 800px;
+	-webkit-filter: brightness (50%);
+	filter: brightness(50%);
+	}
+.list-menu{ 
+	list-style: none;
+	text-align: center; 
+	padding-top: 20px;
+	font-family: arial;
+	font-size: 18px;
 }
-.fondo-features{
-	background: url(....img/laptop-features.png);
+.list-menu li{
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+.list-menu a{
+	padding: 20px 0px 0px 50px;
+	color: white;
+	text-decoration: none;
 }
 
-/*comienza portfolio*/
-.portfolio{
-	background-color: #E0E0E0;
+.lista-home i{
+	color: #0DC0C0;
+	font-size: 40px;
 }
+.fondo-features{
+	background-image: url(../img/laptop-features.png);
+	background:cover;
+	height: 500px; 
+}
+
+
+/*comienza portfolio*/
 .list-img img{
-	border: 12px solid white;
+	border-top: 12px solid white;
+	border-right: 12px solid white;
+	border-left: 12px solid white;
 }
 .list-img{
 	background-color: white;
