@@ -8,8 +8,6 @@
 	background-image: url('../img/background/city.jpg');
 	background-size: cover;
 	background-position: center;
-	-webkit-filter: brightness(50%);
-	filter: brightness(50%);
 }
 
 .pricing-boxes{
@@ -26,10 +24,20 @@
 	height: 100px;
 }
 .img-contactus{
-	height: 600px; 
+	height: 500px; 
 	background-image: url('../img/background/contactus.jpg');
 	background-size: cover;
 	background-position: center;
-	-webkit-filter: brightness(50%);
-	filter: brightness(50%);
+}
+.brd-input{
+	border: 1px solid #A4A4A4;
+}
+.oscuro{
+	background-color: rgba(9,22,37,0.5);
+	height:400px;
+}
+.oscuro2{
+	background-color: rgba(9,22,37,0.5);
+	height:500px;
+	width: 100%;
 }
