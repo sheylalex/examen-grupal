@@ -1,1 +1,18 @@
 *{outline:1px solid rgba(255,0,0,0.4);}
+.home{
+	background-image: url(..img/hero.png);
+}
+.fondo-features{
+	background: url(....img/laptop-features.png);
+}
+
+/*comienza portfolio*/
+.portfolio{
+	background-color: #E0E0E0;
+}
+.list-img img{
+	border: 12px solid white;
+}
+.list-img{
+	background-color: white;
+}
