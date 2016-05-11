@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{outline:1px solid rgba(255,0,0,0.4);}
 /*header 1*/
 .capa{
@@ -25,7 +26,6 @@ height: 800px;
 	color: white;
 	text-decoration: none;
 }
-
 .lista-home i{
 	color: #0DC0C0;
 	font-size: 40px;
@@ -36,7 +36,9 @@ height: 800px;
 }
 .btn-2{
 	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
 }
+/*comienza features*/
 .fondo-features{
 	background-image: url(../img/laptop-features.png);
 	background:cover;
@@ -52,4 +54,36 @@ height: 800px;
 }
 .list-img{
 	background-color: white;
+}
+
+/*comienza pricing*/
+.img-pricing{
+	height: 400px; 
+	background-image: url('../img/background/city.jpg');
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}
+
+.pricing-boxes{
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	background-color: white;	
+}
+.customer-icon{
+	border-radius: 100%;
+	margin: 50px 100px 20px 300px;
+	width:100px;
+	height: 100px;
+}
+.img-contactus{
+	height: 600px; 
+	background-image: url('../img/background/contactus.jpg');
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
 }
