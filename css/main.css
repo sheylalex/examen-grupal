@@ -8,5 +8,28 @@
 	background-image: url('../img/background/city.jpg');
 	background-size: cover;
 	background-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
 }
 
+.pricing-boxes{
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	background-color: white;	
+}
+.customer-icon{
+	border-radius: 100%;
+	margin: 50px 100px 20px 300px;
+	width:100px;
+	height: 100px;
+}
+.img-contactus{
+	height: 600px; 
+	background-image: url('../img/background/contactus.jpg');
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+}
