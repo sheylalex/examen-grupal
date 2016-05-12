@@ -6,25 +6,18 @@ height: 800px;
 }
 .home{
 	background-image: url(../img/background/hero.jpg);
-	background: cover;
-	height: 800px;
-	}
-.list-menu{ 
-	list-style: none;
-	padding-top: 25px;
-	font-family: arial;
-	font-size: 18px;
+	background-size: cover;
 }
-.list-menu li{
-	padding-right: 0px;
-	padding-left: 0px;
-	text-align: center;
-}
-.list-menu a{
-	padding: 20px 0px 0px 50px;
+.menu a{
+	padding: 0px 0px 0px 30px;
 	color: white;
 	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
 }
+.menu a:hover{
+	color: #0DC0C0;
+} 
 .lista-home i{
 	color: #0DC0C0;
 	font-size: 40px;
@@ -37,12 +30,6 @@ height: 800px;
 	background-color: rgba(0, 0, 0, 0.1);
 	color: white;
 }
-/*comienza features*/
-.fondo-features{
-	background-image: url(../img/laptop-features.png);
-	background:cover;
-	height: 500px; 
-}
 
 /*comienza portfolio*/
 .list-img img{
@@ -52,6 +39,19 @@ height: 800px;
 }
 .list-img{
 	background-color: white;
+}
+/*comienza features*/
+
+.iconos-features h5{
+	padding-left: 8%;
+}
+.features i{
+	font-size: 30px;
+	padding-top: 2%;
+	color: #0DC0C0;
+}
+.iconos-features p{
+	padding-left: 8%;
 }
 
 /*comienza pricing*/
