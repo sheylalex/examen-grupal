@@ -13,6 +13,9 @@ strong {
 .pd-0{
 	padding: 0;
 }
+.pd-3{
+	padding: 3%;
+}
 .pd-5 {
 	padding: 5%;
 }
@@ -34,6 +37,9 @@ strong {
 }
 .pb-5{
 	padding-bottom: 5%;
+}
+.pl-3{
+	padding-left: 3%;
 }
 .pl-5{
 	padding-left: 5%;
