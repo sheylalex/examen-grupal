@@ -1,6 +1,11 @@
 *{outline:1px solid rgba(255,0,0,0.4);}
 /*header 1*/
-
+body{
+	font-family: "open sans", sans-serif;
+}
+h1,h2,h3,h4,h5{
+	font-family: “slabo 13px”; serif;
+}
 .capa{
 background-color: rgba(9, 22, 37, 0.5);
 height: 800px;
