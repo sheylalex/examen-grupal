@@ -1,6 +1,6 @@
-/**{outline:1px solid rgba(255,0,0,0.4);}*/
+*{outline:1px solid rgba(255,0,0,0.4);}
+/*header 1*/
 
-/*header1*/
 .capa{
 background-color: rgba(9, 22, 37, 0.5);
 height: 800px;
@@ -82,7 +82,7 @@ height: 800px;
 }
 
 .pricing-boxes{
-	width:25%;
+	width:90%;
 	display: inline-block;
 	vertical-align: top;
 	overflow: hidden;
@@ -90,24 +90,19 @@ height: 800px;
 }
 .customer-icon{
 	border-radius: 100%;
-	margin: 0px 100px 20px 300px;
 	width:100px;
 	height: 100px;
 }
-.img-contactus{
-	height: 500px; 
+.img-contactus{ 
 	background-image: url('../img/background/contactus.jpg');
-	background-size: cover;
-	background-position: center;
+	background-size: cover;	
 }
 .brd-input{
 	border: 1px solid #A4A4A4;
 }
 
 .oscuro2{
-	background-color: rgba(9,22,37,0.5);
-	height:500px;
-	width: 100%;
+	background-color: rgba(9,22,37,0.5);	
 }
 .follow-icons i{
 	font-size: 40px;
@@ -122,4 +117,30 @@ height: 800px;
 }
 .brd-none{
 	border: none;
+}
+
+@media (max-width: 750px){
+.menu a{
+		margin:auto;
+		padding:0px;
+		font-size: 1.2em;
+	}
+.list-portfolio a{ 
+	text-decoration: none;
+	padding: 0px;
+	color: black;
+	font-weight: bold;
+	font-size: 1.05em;
+	margin:auto;
+}
+.capa{
+height: 500px;
+}
+.home{
+	height: 500px;
+	background-size: cover;
+}
+.texto-pricing{
+	padding-top: 30%;
+}
 }
