@@ -1,5 +1,6 @@
-/**{outline:1px solid rgba(255,0,0,0.4);}
-/*header 1*/
+/**{outline:1px solid rgba(255,0,0,0.4);}*/
+
+/*header1*/
 .capa{
 background-color: rgba(9, 22, 37, 0.5);
 height: 800px;
@@ -32,6 +33,16 @@ height: 800px;
 }
 
 /*comienza portfolio*/
+.list-portfolio a{ 
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	font-weight: bold;
+}
+.list-portfolio a:hover{ 
+	background: #0DC0C0;
+	color: white;
+}
 .list-img img{
 	border-top: 12px solid white;
 	border-right: 12px solid white;
@@ -79,7 +90,7 @@ height: 800px;
 }
 .customer-icon{
 	border-radius: 100%;
-	margin: 50px 100px 20px 300px;
+	margin: 0px 100px 20px 300px;
 	width:100px;
 	height: 100px;
 }
