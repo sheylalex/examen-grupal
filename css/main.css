@@ -1,11 +1,12 @@
 /**{outline:1px solid rgba(255,0,0,0.4);}*/
-/*header 1*/
 body{
 	font-family: "open sans", sans-serif;
 }
 h1,h2,h3,h4,h5{
 	font-family: “slabo 13px”; serif;
 }
+
+/*header1*/
 .capa{
 background-color: rgba(9, 22, 37, 0.5);
 height: 800px;
@@ -87,7 +88,7 @@ height: 800px;
 }
 
 .pricing-boxes{
-	width:90%;
+	width:25%;
 	display: inline-block;
 	vertical-align: top;
 	overflow: hidden;
@@ -98,16 +99,20 @@ height: 800px;
 	width:100px;
 	height: 100px;
 }
-.img-contactus{ 
+.img-contactus{
+	height: 500px; 
 	background-image: url('../img/background/contactus.jpg');
-	background-size: cover;	
+	background-size: cover;
+	background-position: center;
 }
 .brd-input{
 	border: 1px solid #A4A4A4;
 }
 
 .oscuro2{
-	background-color: rgba(9,22,37,0.5);	
+	background-color: rgba(9,22,37,0.5);
+	height:500px;
+	width: 100%;
 }
 .follow-icons i{
 	font-size: 40px;
